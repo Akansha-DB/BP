@@ -1,0 +1,10 @@
+https://analytics.dev.azure.com/bp-people-culture/IandE%20Agile%20Coaching/_odata/v3.0-preview/WorkItems?
+$filter=Area/AreaPath eq 'IandE%20Agile%20Coaching\Metrics%20And%20ADO' and State eq 'Done'
+        &$select=WorkItemId,
+        Title,
+        WorkItemType,State,
+        Priority,TagNames,
+        CycleTimeDays,LeadTimeDays,
+        CompletedDateSK,CreatedDate
+        
+
